@@ -1,0 +1,45 @@
+body {
+  display:flex;
+  background-color: grey;;
+}
+
+#left {
+  background-image: url(images/fern.jpg);
+  background-size: cover;
+  width: 15%;
+}
+
+
+#right {
+  display: flex 1;
+}
+#info {
+  height: 100px;
+  width:  500px;
+  padding: 200px 75px 25px 75px;
+  /*text-align: ;*/
+  font-size: 25px;
+  background-color: white;
+  
+}
+
+#questions {
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr;
+  background-color: lightblue;
+}
+
+label {
+  padding:10px;
+}
+
+button {
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: red;
+}
+
+form {
+  background-color: blue;
+}
