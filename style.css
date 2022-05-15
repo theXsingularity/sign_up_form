@@ -1,45 +1,83 @@
 body {
   display:flex;
-  background-color: grey;;
+  margin: 0px;
+  background-color: yellow;;
 }
 
 #left {
   background-image: url(images/fern.jpg);
   background-size: cover;
-  width: 15%;
+  min-width: 35%;
+  height: 800px;
 }
 
+#title{ /*container*/
+  /*box-sizing: border-box;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 215px;
+  height: 150px;
+  background: rgba(19, 21, 22, 0.70);
+  
+}
+
+#title div{
+}
+
+#titleText {
+  font-size: 85px;
+  color: white; 
+}
+#odin {
+  margin: auto;
+}
+#icon img{
+  width: 75px;  
+}
 
 #right {
   display: flex 1;
+  background-color: white;  
 }
+
 #info {
-  height: 100px;
-  width:  500px;
-  padding: 200px 75px 25px 75px;
-  /*text-align: ;*/
+  padding-top: 180px;
+  padding-right: 125px;
+  padding-bottom: 25px;
+  padding-left: 50px;
   font-size: 25px;
-  background-color: white;
   
 }
 
 #questions {
   display: grid;
-  
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 250px 250px;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  text-align:  center;
   background-color: lightblue;
+  
 }
 
 label {
-  padding:10px;
+  display: grid;
+  padding-top: 10x;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  text-align: left;
+  font-size: 25px;
+  background-color: lightblue;
 }
 
 button {
-  margin-top: 50px;
-  margin-left: 15px;
-  background-color: red;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  
 }
 
 form {
-  background-color: blue;
+  
 }
